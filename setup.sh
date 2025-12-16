@@ -18,3 +18,5 @@ uv sync
 
 curl -O http://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 gunzip Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+# Generate the index file for the FASTA file.
+samtools faidx Homo_sapiens.GRCh38.dna.primary_assembly.fa

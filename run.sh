@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#  Prerequisite:  
+#    1. Install all dependent packages via `uv sync`
+#    2. activate the virtual environment by `source .venv/bin/activate`
+#  After this, the python program will be called from the virtual environment where the dependent python packages were installed in.
+
 ######################################
 # 0. Setup data directories
 ######################################
