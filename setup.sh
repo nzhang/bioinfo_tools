@@ -9,6 +9,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # After this you can run
 #     `source .venv/bin/activate`
 # to activate the virtual environment for your project.
+uv init
 uv sync
 
 # 4. Download human gnomes
