@@ -1,5 +1,7 @@
 # Running scSplit with latest python
-This is based on the open source https://github.com/jon-xu/scSplit, whose latest update was in 2023. Since then python packages were updated significantly so that the scSplit tool is not working out of the box. This repo is to fix some of the incompatibility issues. 
+The original runbook is from https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/scSplit.html#run-scsplit. 
+
+The original runbook is based on the open source https://github.com/jon-xu/scSplit, whose latest update was in 2023. Since then python packages were updated significantly so that the scSplit tool is not working out of the box. This repo is to provide a new runbook that fixes some of the incompatibility issues.
 
 ## Setup software dependencies
 There are two sets of software dependencies for scSplit: binary tools and python packages.
