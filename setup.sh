@@ -29,3 +29,10 @@ curl -O http://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/dna/Homo_sapie
 gunzip Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 # Generate the index file for the FASTA file.
 samtools faidx Homo_sapiens.GRCh38.dna.primary_assembly.fa
+
+# 5. Download test data from https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/DataPrep.html#testdata
+# Download the reduced Small dataset
+wget https://www.dropbox.com/s/m8u61jn4i1mcktp/TestData4PipelineSmall.tar.gz
+
+# Or Download the full dataset
+# wget https://www.dropbox.com/s/3oujqq98y400rzz/TestData4PipelineFull.tar.gz
